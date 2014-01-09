@@ -1,0 +1,38 @@
+README - DESIGN
+The game is designed using with the use of three classess
+The stack and queue classes are for the most part the same as the ones that were used through the class but 
+they both have a len function now.
+
+However I made a Deck class
+
+This class creates 52 cards that make up a deck and puts the deck as a list
+in the initializer there are the cards A, 2, 3, 4, 5, 6, 7, 8, 9, T(10), J, Q, K
+and the suits C (clubs), S(spades), H(hearts), D(diamonds)
+it goes through and makes sure for each suit there is a card of with that suit and puts them in a list.
+this list is called self.Deck
+
+The Deck class has a shuffle feature which is from the random library
+
+It also has the same functions as Queue because it is treated in a similar manner.
+(I tried to use inheritance with the Deck class because it had such similar functions but I was struggling with
+this idea)
+
+The code for the game itself begins with using an already made deck = DK1
+
+It shuffles the deck and deals a hand of 26 cards. this list becomes player1
+the rest of the deck is still a list and is player2
+
+The program then asks for raw inputs
+if a is the raw input it then pops from player1 and pushes that pop to the empty stack called game_pile
+if k it does the same but from player2
+
+If s is raw input it will check to confirm if the last two objects in stack are a double or if last three make 
+a sandwhich.  If not it returns "not a valid slap" if yes each card from stack is added to slapping players hand
+If l the same rules are followed but with player2
+
+Also the game is constantly checking the game_pile to see if the one of the face card rules is applicable
+and if a player has won the stack by face card.  However there is a time delay so you may still slap even
+if face card rule is applicable at the time.
+
+Once game ends you are prompted with a yes or no response to play again if yes game will restart if no 
+you see thanks for playing.

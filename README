@@ -1,0 +1,28 @@
+README
+
+How to play:
+Begin by hitting the run program button
+
+The game will then prompt you by saying that the cards have been shuffled and that it is time to play.
+
+First players commands are the a key to play a card and the s key to slap the pile.
+
+Second players commands are the k key to play a card and the l key to slap the pile.
+
+Players take turns playing cards.
+
+You may always slap doubles and sandwhiches. (when two of the same number cards are on top of pile or they are seperated by one card in between.
+a good slap wins the slapper the pile
+
+If a face card is played:
+if jack is played - other player has one chance to get another face card or ace
+
+if queen is played - other player has two chances to get a face card or ace
+
+if king is played - other player had three chances to get a face card or ace
+
+if ace is played - other player has four chances to get a face card or ace
+
+The player that wins the pile must start the new pile
+
+The game continues until a player runs out of cards
